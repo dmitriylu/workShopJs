@@ -1,3 +1,3 @@
 # workShopJs
 My home work
-[ДЗ№1](https://dmitriylu.github.io/workShopJs/ "ДЗ№1")
+[ДЗ№1](https://dmitriylu.github.io/workShopJs/workshop "ДЗ№1")
