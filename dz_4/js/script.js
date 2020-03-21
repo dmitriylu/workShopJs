@@ -245,6 +245,6 @@ getData(proxy + citiesApi, (data) => {
         return 0;
       });
 
-    // console.log(city);
+    console.log(city);
 });
 
