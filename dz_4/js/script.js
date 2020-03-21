@@ -233,7 +233,7 @@ formSerch.addEventListener('submit', (event) => {
 
 // вызовы ф-кий
 getData(proxy + citiesApi, (data) => {
-    city = JSON.parse(data).filter(item =>  item.name && item.destination && item.origin);
+    city = JSON.parse(data).filter(item =>  item.name);
 
     city.sort( (a, b) => {
         if (a.name > b.name) {
@@ -245,6 +245,6 @@ getData(proxy + citiesApi, (data) => {
         return 0;
       });
 
-    console.log(city);
+    // console.log(city);
 });
 
